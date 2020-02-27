@@ -9,9 +9,185 @@
     <link rel="icon" href="cool-icon.png">                    <!-- Insert Icon -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
 
-    <p> Lets Build a Great Site! hahah </p>
+
+
+	<style type="text/css">
+		.photo {
+			text-align: center;
+			width:500px;
+		}
+        .personalPic.{
+            text-align: center;
+            width:50px;
+            height: 50px;
+        }
+
+		.box_img{
+			text-align: center;
+		}
+		.box{
+			margin-left: 10%;
+			margin-right:10%;
+		}
+		.input_style {
+			width:100%;
+		}
+        .title{color: green;
+            margin-left: 15%;
+            margin-right:15%;
+            font-size:50px;
+        }
+        body {
+            margin: 0;
+        }
+
+        /* NAV BAR */
+
+        .nav-bar {
+            width: 100%;
+            height: 50px;
+            margin: 0;
+            background: orange;
+            position:sticky;
+            position:-webkit-sticky;
+            top:0;
+
+            /* Toggle between static and sticky */
+
+            /*position: sticky;
+            top: 0; */
+        }
+
+        .nav-bar > .element {
+            width: 19.5%;
+            line-height: 50px;
+            text-align: center;
+            color: white;
+            display: inline-block;
+            margin: 0;
+            font-family: Arial;
+            text-decoration: none;
+        }
+
+        .nav-bar > .element:hover { 
+            text-decoration: underline;
+        }   
+
+
+        /* BODY */
+
+        .content {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .IEA {color: darkgreen;
+            font-size:20px;
+        }
+
+        .APDA {color: violet;
+            font-size:20px;
+        }
+
+        .PF {color: red;
+            font-size:20px;
+        }
+
+        .Volunteer {color: orange;
+            font-size:20px;
+        }
+
+        .Skill {color: brown;
+            font-size:30px;
+            font-weight: bold
+            font-style:italic;
+        }
+
+        .Language {color: black;
+            font-size:20px;
+            font-weight: bold
+            font-style:italic;
+        }
+    </style>
+
+
+        <div class=nav-bar>
+            <a href='nav_bar.html' class=element> Home </a>
+            <a href='nav_bar.html' class=element> Experience </a>
+            <a href='nav_bar.html' class=element> Resume </a>
+            <a href='nav_bar.html' class=element> Project </a>
+            <a href='nav_bar.html' class=element> Contact </a>
+        </div>
+
+        <p class="title"> Yaxuan (Rebecca) Li Personal Website </p>
+
+        <div class=box>
+
+        <img class=photo src="https://a1.cdn.japantravel.com/photo/50097-188699/1440x960!/tokyo-one-piece-halloween-188699.jpg">
+
+        <img class=personalPic src="Photo.jpg" height="400" width="400">
+
+        <p> I am a freshmen in Carnegie Mellon Universtiy. I love watching Japanese manga and travel. </p>
+
+        <p class="Skill"> GPA:4.0/4/0</p>
+
+        <p class="Skill"> Class taken</p>
+
+        <p class="Language"> Fall 2019</p>
+
+        <p> Multivariate Analysis [Math]</p> <p> Principles of Computing [CS]</p>  <p> Global History [GenEd]</p>
+
+        <p> Principles of Microeconomics [Econ]</p> <p> Reason, Passion, Cognition [Decision Science]</p>
+
+        <p class="Language"> Spring 2020</p>
+
+        <p> Fundamentals of Programming and Computer Science [CS]</p> <p> The Information system Milieux [IS]</p>  <p> Interpretation and Argument [GenEd]</p>
+
+        <p> DC Grand Challenge First-Year Seminar:Inequality [GenEd]</p> <p> Reasoning with Data [GenEd]</p> 
+
+        <p class="Skill"> Skills</p>
+
+        <p class="Language"> Language</p>
+
+        <p> Mandarin, English, French, and Japanese.</p>
+
+        <p class="Language"> Programming</p>
+
+         <p class="skill"> Python</p>
+
+        <p class="IEA"> US-China Innovation and Entrepreneurship Association External Department Member September 2019 – present</p>
+
+        <p> •   Organized career fair for Longfor Group with 50 Ph.D and graduate students participating on October 5, 2019</p>
+        <p> •   Contacted 8 corporations to participate in the CPDC Global Opportunities Fair on October 29, 2019</p>
+        <p> •   Designated advertising poster and ordered catering for the CPDC Global Opportunities Fair</p>
+
+
+        <p class="APDA"> American Parliament Debate Club Member                                    September 2019 – present</p>
+
+        <p> •   Complied evidence for various debate topics, such as veto power and elder wand of Harry Potter</p>
+        <p> •   Participated in University of Pittsburgh tournament in October </p>
+        <p> •   Judged novice round in CMU Survivor tournament on January 18-19, 2020</p>
+
+
+        <p class="PF"> Public Forum Debate Club Senior Member and Lab Leader                September 2016 – September 2018</p>
+
+        <p> •   Complied evidence for various debate topics, such as economic globalization and foreign aid</p>
+        <p> •   Organized weekly debate lab and created tutoring materials for novice debaters</p>
+        <p> •   Achieved Top 8 in National Speech and Debate Association Beijing regional tournament in December 2017 and 1st place in National Speech and Debate Association Zhengzhou regional tournament in November 2017</p>
+        <p> •   Ranked 22nd/645 in NSDA Beijing Debate region and 103rd/7877 in NSDA national in May 2018</p>
+
+
+        <p class="Volunteer"> Music Therapy for Autistic Children Volunteer Teacher, Group leader          September 2017 – October 2018</p>
+
+        <p>•    Taught children with mental illness basic musical knowledge, such as musical scale and diverse tempos</p>
+        <p> •   Filmed a video to promote musical therapy activities and recruit new members from high school</p>
+        <p> •   Published several vlogs and reflections of my meaningful life experience in English</p>
+
+    <input class=input_style type="text" name="hello" placeholder="Where do you want to travel this summer?">
+   </div>
 
     <script type="text/javascript" src="interactions.js"></script>    <!-- Insert JQuery Script -->
 
